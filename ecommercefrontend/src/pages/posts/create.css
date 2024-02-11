@@ -1,0 +1,35 @@
+.createform {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-bottom: 1rem;
+}
+.createlayout{
+    min-height: 100vh;
+    background-color: dodgerblue;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    color: #fff ;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center;*/
+    padding: 1rem 0.5rem;
+    margin: 0;
+}
+.maingrid{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 20px;
+
+}
+.grid-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+  }
+input{
+ background-color: #fff !important;   
+}  
